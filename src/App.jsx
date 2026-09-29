@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/next"
 import AppShell from './components/layout/AppShell';
 import LandingPage from './pages/LandingPage';
 import UploadPage from './pages/UploadPage';
