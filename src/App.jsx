@@ -1,17 +1,19 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
+
 import AppShell from './components/layout/AppShell';
 import LandingPage from './pages/LandingPage';
 import UploadPage from './pages/UploadPage';
 import DashboardEditor from './pages/DashboardEditor';
 import DashboardGallery from './pages/DashboardGallery';
-
 import TemplateGallery from './pages/TemplateGallery';
 import DatasetGallery from './pages/DatasetGallery';
 
 function App() {
   return (
     <BrowserRouter>
+      <Analytics />
+
       <Routes>
         <Route element={<AppShell />}>
           <Route path="/" element={<LandingPage />} />
