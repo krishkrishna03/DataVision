@@ -10,7 +10,7 @@ export default function LandingPage() {
       {/* Hero Section */}
       <div style={{ marginBottom: 80 }}>
         <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '8px 16px', background: 'rgba(99,102,241,0.1)', color: 'var(--text-accent)', borderRadius: 100, fontSize: 13, fontWeight: 600, marginBottom: 24 }}>
-          <Sparkles size={16} /> DataVision AI 2.0 is out
+          <Sparkles size={16} /> DataVision AI is out
         </div>
         
         <h1 style={{ fontSize: 56, fontWeight: 800, lineHeight: 1.1, marginBottom: 24, letterSpacing: '-1px' }}>
